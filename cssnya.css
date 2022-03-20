@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/28px Brush Script MT, Cursive;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* Navigasi */
+.container nav {
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav .logo {
+    margin-left: 10px;
+    text-align: left;
+    width: 25%;
+}
+
+.container nav .logo ul {
+    padding-top: 5px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.container nav .logo ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+.container nav .nama {
+    text-align: center;
+    margin-right: 10px;
+    line-height: 35px;
+}
+
+/* Content */
+.container .content1 {
+    height: 200px;
+    background-image: url(satu.jpg);
+    background-position: 20px;
+    border-top: 3px solid rgb(241, 87, 87);
+    border-bottom: 3px solid rgb(97, 170, 238);
+}
+
+.container .content2 {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    background-color: #ffffff;
+}
+
+.container .content2 h2 {
+    text-align: center;
+}
+
